@@ -20,8 +20,7 @@ public class Main {
     }
 
     public static double generateRandomAge(){
-        double randomInt = 1 + Math.random()*99;
-        return randomInt;
+        return 1 + Math.random()*99;
     }
 }
 
